@@ -13,7 +13,7 @@ class GroceryItem extends React.Component {
                     : "none",
                 }}
                 >
-                    <input onClick={toggleItem} onChange={item.purchased} className="mr-3" type="checkbox" />
+                    <input onClick={toggleItem} checked={item.purchased} className="mr-3" type="checkbox" />
                     {item.name} <span className="has-text-weight-light">({item.number})</span>
                 </label>
             </li>

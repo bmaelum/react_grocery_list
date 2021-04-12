@@ -3,6 +3,14 @@
 Following the hand-on lab "Building a Grocery List App with React" from A Cloud Guru:
 https://learn.acloud.guru/handson/61c0cdd3-d3bc-4636-9b9f-43d224b4dac4/course/expanding-your-js-skills-with-react
 
+## Dockerize app
+*Build image*
+```docker build -t react-app .```
+
+*Run container*
+```docker run -d -it -p 80:80 --name react-app-container react-app```
+
+
 ---
 
 # Getting Started with Create React App
