@@ -15,7 +15,7 @@ class App extends React.Component {
         {
           name: "Bananas",
           number: 6,
-          purchased: true,
+          purchased: false,
         }
       ]
     }
